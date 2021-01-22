@@ -17,4 +17,4 @@ A program to print all permutations of a given string.
 A program to check if a number is called an Armstrong number. This is if it is equal to the cube of its every digit. Returning true, false otherwise. 
 > For example, 153 is an Armstrong number because of 153 = 1+125+27, which is equal to 1^3+5^3+3^3.
 
-***A Java program**
+***A Java program***
