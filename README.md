@@ -28,10 +28,12 @@ Clone the repository and open the program folder using a Java IDE such as Intell
 ## Usage
 
 ```java
-Statement addStatement = connection.createStatement();
-        for (Employee employee: list) {
-            addStatement.executeUpdate("INSERT INTO employeesDB.employees" + " VALUES(" + employee.getEmployeeID() + ",'" + employee.getPrefix() + "','" + employee.getFirstName() + "','" + employee.getInitial() + "','" + employee.getLastName() + "','" + employee.getGender() + "','" + employee.getEmail() + "','" + employee.getDob() + "','" + employee.getJoinDate() + "'," + employee.getSalary() + ")");
-        } // running query to populate the database with employees data from the CSV file
+switch (userChoice) {
+            case 1 -> StringAnagram.isInputsValid(Printers.stringAnagramMenu());
+            case 2 -> Palindrome.isInputValid(Printers.palindromeMenu());
+            case 3 -> StringPermutations.isInputValid(Printers.stringPermutationsMenu());
+            case 4 -> ArmstrongNumber.isArmstrong(Printers.armstrongMenu());
+        }
 ```
 
 ## Contributing
